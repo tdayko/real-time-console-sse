@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EA633483-A16C-46DE-B1C2-949D0C65A168}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeConsoleSSE.Console", "src\RealTimeConsoleSSE.Console\RealTimeConsoleSSE.Console.csproj", "{307BEC04-7F7C-404B-9E99-A2F79EBD7DE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RealTimeConsoleSSE.Server", "src\RealTimeConsoleSSE.Server\RealTimeConsoleSSE.Server.csproj", "{A244BD56-BBFB-4116-9041-0FF7B7C8B92E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{307BEC04-7F7C-404B-9E99-A2F79EBD7DE4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{307BEC04-7F7C-404B-9E99-A2F79EBD7DE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{307BEC04-7F7C-404B-9E99-A2F79EBD7DE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{307BEC04-7F7C-404B-9E99-A2F79EBD7DE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A244BD56-BBFB-4116-9041-0FF7B7C8B92E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A244BD56-BBFB-4116-9041-0FF7B7C8B92E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A244BD56-BBFB-4116-9041-0FF7B7C8B92E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A244BD56-BBFB-4116-9041-0FF7B7C8B92E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{307BEC04-7F7C-404B-9E99-A2F79EBD7DE4} = {EA633483-A16C-46DE-B1C2-949D0C65A168}
+		{A244BD56-BBFB-4116-9041-0FF7B7C8B92E} = {EA633483-A16C-46DE-B1C2-949D0C65A168}
+	EndGlobalSection
+EndGlobal
