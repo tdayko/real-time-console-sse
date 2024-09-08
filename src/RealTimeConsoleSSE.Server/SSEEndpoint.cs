@@ -2,8 +2,8 @@ namespace RealTimeConsoleSSE.Server;
 
 public static class SSEEndpoint
 {
-    public static void MapSSEEndpoint(this IEndpointRouteBuilder endpoint) => endpoint.MapGet("/events", HandleSSEEndpoint);
-    private static async void HandleSSEEndpoint(HttpContext context)
+    public static void MapSSEEndpoint(this IEndpointRouteBuilder endpoint) => endpoint.MapGet("sse/events", HandleSSEEndpoint);
+    private static async Task HandleSSEEndpoint(HttpContext context)
     {
         context.Response.Headers.Append("Content-Type", "text/event-stream");
 
